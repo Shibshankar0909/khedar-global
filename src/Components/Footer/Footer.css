@@ -1,0 +1,32 @@
+#footer{
+    background-color: #133c67;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+    text-align: center;
+    width: 100%;
+}
+.icon{
+    margin: 5px;
+    border-radius: 50%;
+}
+.icon .social-svg-icon {
+    fill: #f26223 !important;
+}
+.icon:hover .social-svg-icon {
+    fill: white !important;
+}
+.social{
+    width: 90%;
+}
+.social p{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+  }
