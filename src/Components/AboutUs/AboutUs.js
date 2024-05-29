@@ -16,8 +16,9 @@ function AboutUs() {
             </div>
             <div className="about-text">
                 <h1><span>About</span> Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam libero quia fuga quidem deserunt soluta voluptatibus dolorem quasi illo eum, sequi dignissimos iusto praesentium a placeat aliquid modi natus velit excepturi eos quod vero! Minima dolor sit quae corrupti aperiam temporibus, magnam fugiat iusto alias reiciendis ea aut libero quos voluptate necessitatibus iure accusantium facere voluptatibus ipsam velit non fuga animi. Quisquam aut optio obcaecati, error corrupti sed ipsum distinctio fuga, dolor non maxime sint sapiente recusandae saepe ab perspiciatis, sit consectetur accusamus? Magni, voluptatibus commodi optio architecto ex incidunt ea, facere et dignissimos officia, cum harum blanditiis maiores.</p>
-                <button onClick={()=>handleClick()}>Read More</button>
+                <p>Welcome to A KHEDAR GLOBAL, a leading player in the metal scrap import-export industry. Established with a vision to revolutionize the Copper scrap recycling sector, we pride ourselves on our unwavering commitment to sustainability, integrity, and customer satisfaction.
+                </p>
+                <button onClick={() => handleClick()}>Read More</button>
             </div>
         </div>
     )
