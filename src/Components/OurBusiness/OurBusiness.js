@@ -3,8 +3,10 @@ import './OurBusiness.css';
 import pic1 from './pic1.jpg';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import { useNavigate } from 'react-router-dom';
 
 function OurBusiness() {
+    const navigate = useNavigate();
     return (
         <>
             <Navbar />
@@ -52,7 +54,7 @@ function OurBusiness() {
                     </p>
                 </div>
             </div>
-            <div className="btn">
+            <div onClick={() => { navigate('/contact') }} className="btn">
                 <button>
                     Contact Us
                 </button>
