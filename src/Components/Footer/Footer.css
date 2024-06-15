@@ -9,6 +9,12 @@
     text-align: center;
     width: 100%;
 }
+.footeer-text h2{
+    margin-bottom: -5%;
+}
+.footeer-text h3{
+    margin-bottom: 10px;
+}
 .icon{
     margin: 5px;
     border-radius: 50%;
@@ -21,6 +27,7 @@
 }
 .social{
     width: 90%;
+    margin-bottom: -1%;
 }
 .social p{
     margin: 0;
