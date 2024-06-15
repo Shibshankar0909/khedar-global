@@ -26,7 +26,7 @@ function OurBusiness() {
                             Efficient logistics management for timely deliveries.
                         </li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime sapiente quisquam inventore possimus est vitae veniam voluptatum illum adipisci.
+                    <p>At A Khedar Global, we excel in importing and exporting copper scrap, fostering sustainability, and ensuring superior customer service through global logistics and innovative recycling solutions.
                     </p>
                 </div>
                 <div className="item image" style={{ backgroundImage: `url(${pic1})` }}>
