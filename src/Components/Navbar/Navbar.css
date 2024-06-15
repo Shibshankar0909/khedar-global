@@ -1,11 +1,12 @@
 .active{
-    color: #1d4ed8;
+    /* color: #545b6e !important; */
+    background-color: #545b6e;
 }
 
 .logo{
     /* background-image: url(logo2.png); */
-    margin-left: 20px;
-    width: 140px;
+    margin-left: 5px;
+    width: 180px;
     height: auto;
     margin-right: 10px;
 }

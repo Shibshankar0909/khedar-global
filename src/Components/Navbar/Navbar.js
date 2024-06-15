@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "./A_Khedar_Global.png"
+import logo from "./A_Khedar.png"
 
 function Navbar () {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ function Navbar () {
     <nav>
       <div className="title">
       <img src={logo} className="logo"/>
-        Khedar Global
+        {/* A Khedar Global */}
       </div>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -22,6 +22,15 @@ function Navbar () {
         <Link to="/">Home</Link>
         </li>
         <li>
+        <Link to="/ourBusiness">Our Business</Link>
+        </li>
+        
+        <li>
+        <Link to="/products">Our Products</Link>
+        </li>
+
+
+        {/* <li>
         <Link to="/copper">Copper</Link>
         </li>
         <li>
@@ -29,7 +38,9 @@ function Navbar () {
         </li>
         <li>
         <Link to="/strips">Copper Strips</Link>
-        </li>
+        </li> */}
+
+
         <li>
           <Link to='/contact'>Contact Us</Link>
         </li>
