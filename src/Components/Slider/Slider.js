@@ -1,20 +1,25 @@
 import React from "react";
 import './Slider.css';
-import slider1 from './slider1.avif';
-import slider2 from './slider2.avif';
-import slider3 from './slider3.avif';
+import slider1 from './slider4.png';
+import slider2 from './slider1.avif';
+import slider3 from './slider2.avif';
+import slider4 from './slider3.avif';
 
 const images = [
   {
     url: slider1,
-    caption: 'Dedicated Workers',
+    // caption: 'Dedicated Workers',
   },
   {
     url: slider2,
-    caption: 'Efficient Infrastructure',
+    caption: 'Dedicated Workers',
   },
   {
     url: slider3,
+    caption: 'Efficient Infrastructure',
+  },
+  {
+    url: slider4,
     caption: 'State of the art manufacture unit',
   },
 
