@@ -1,0 +1,35 @@
+.text{
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.text h1{
+    color: #f26223 !important;
+    text-decoration: underline;
+}
+
+.text p {
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f26223;
+    background-color: white;
+    color: #f26223;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+.button:hover {
+    background-color: #f26223;
+    color: white;
+    cursor: pointer;
+}
