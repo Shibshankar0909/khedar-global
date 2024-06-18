@@ -1,48 +1,52 @@
 .grid-container {
-    margin-top: 100px;
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 10px; 
-    padding: 70px;
-  }
-  
-  .item {
-    padding: 10px;
-    box-sizing: border-box;
-  }
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 70px;
+}
 
-  .item h1{
-    color: #f26223;
-    font-size: 3rem;
-  }
-  .item p{
-    font-size: 1.1rem;
-  }
-.image{
+.item {
+  padding: 10px;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.item h1 {
+  color: #f26223;
+  font-size: 3rem;
+}
+
+.item p {
+  font-size: 1.1rem;
+}
+
+.image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10%;
 }
 
-.points h1{
+.points h1 {
   font-size: 2rem;
   text-align: center;
 }
-.points p{
+
+.points p {
   font-size: 1.1rem;
   text-align: center;
 }
 
-.btn{
+.btn {
   width: 100%;
   margin-bottom: 50px;
 }
 
-.btn button{
+.btn button {
   display: flex;
-  align-items: center; 
+  align-items: center;
   border: 1px solid #f26223;
   background-color: white;
   color: #f26223;
@@ -50,6 +54,7 @@
   font-size: 1rem;
   margin: auto;
 }
+
 .btn button:hover {
   background-color: #f26223;
   color: white;
@@ -65,11 +70,37 @@
     padding: 5px;
     text-align: center;
   }
-  .image{
+
+  .image {
     border-radius: 5%;
     width: 60vw;
     min-width: 200px;
     min-height: 500px;
     height: auto;
+  }
+
+  .item h1 {
+    color: #f26223;
+    font-size: 2.5rem;
+  }
+
+  .item p {
+    font-size: 1rem;
+  }
+
+  .points h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .points p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .item {
+    padding: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
   }
 }

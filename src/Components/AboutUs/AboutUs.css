@@ -92,6 +92,10 @@
     .about-text {
         width: 95%;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .imgs img {
