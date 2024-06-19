@@ -32,13 +32,13 @@ function OurBusiness() {
                 <div className="item image" style={{ backgroundImage: `url(${pic1})` }}>
 
                 </div>
-                <div className="item points" style={{ paddingTop: "80px" }}>
+                <div className="item points" >
                     <h1>What We Do</h1>
                     <p>We specialize in bringing metal scrap from one place to another, offering a wide range of services to suit our clients' needs worldwide. From finding top-notch scrap materials to organizing the transportation and making sure everything arrives on time, we take care of every step of the import-export journey with attention to detail and dedication.
 
                     </p>
                 </div>
-                <div className="item points" style={{ paddingTop: "80px" }}>
+                <div className="item points" >
                     <h1>Our Mission</h1>
                     <p>At  A KHEDAR GLOBAL  is clear: we aim to help metal scrap move around the world while also caring for the environment and boosting economies. We want to be the go-to choice for businesses needing dependable, green scrap ,Copper scrap ,Aluminium metal solutions.
                     </p>
